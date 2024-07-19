@@ -33,7 +33,7 @@ public abstract class PowerUpEffect : ScriptableObject
                 return legendaryColor;
             default:
                 Debug.LogWarning($"Unknown item rarity: {itemRarity}. Returning default color.");
-                return Color.white; // Default color if rarity is unknown
+                return Color.white;
         }
     }
     public abstract void Apply(GameObject target);

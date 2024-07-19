@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpriteDirectionControll : MonoBehaviour
 {
-    public Transform targetCamera; // The camera to follow its Y-axis rotation
+    public Transform targetCamera;
 
     private void Awake()
     {

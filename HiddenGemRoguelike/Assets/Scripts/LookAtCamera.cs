@@ -36,7 +36,6 @@ public class CameraLookAt : MonoBehaviour
         objectTransform.Rotate(Vector3.up, rotation);
     }
 
-    // Method to freeze the rotation externally (if needed)
     public void FreezeRotation()
     {
         rotationFrozen = true;
